@@ -6,7 +6,7 @@ RSpec.describe Alphabet do
   end
 
   it "exists" do
-    expect(@alphabet).to eq(Alphabet)
+    expect(@alphabet).to be_a(Alphabet)
   end
 
   it "has attributes" do
