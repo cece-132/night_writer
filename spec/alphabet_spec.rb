@@ -10,6 +10,6 @@ RSpec.describe Alphabet do
   end
 
   it "has attributes" do
-    expect(@alphabet.alpha).to eq()
+    expect(@alphabet.alpha).to be_a Hash
   end
 end
