@@ -9,4 +9,7 @@ RSpec.describe Alphabet do
     expect(@alphabet).to eq(Alphabet)
   end
 
+  it "has attributes" do
+    expect(@alphabet.alpha).to eq()
+  end
 end
